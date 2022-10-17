@@ -74,3 +74,47 @@
     <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_1/standardize_scaler.png" width=100% height=100%></td>
   </tr>
 </table>
+
+---
+
+### Deliverable 2: Reducing Data Dimensions Using PCA
+
+<table>
+  <tr>
+    <td>Complete</td>
+    <td>Task</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 1.) Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_2/delv_2.png" width=100% height=100%></td>
+  </tr>
+</table>
+
+---
+
+### Deliverable 3: Clustering Cryptocurrencies Using K-means 
+
+<table>
+  <tr>
+    <td>Complete</td>
+    <td>Task</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 1.) Using the pcs_df DataFrame, create an elbow curve using hvPlot to find the best value for K.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_3/elbow_curve.png" width=100% height=100%></td>
+  </tr>
+    <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 2.) Next, use the pcs_df DataFrame to run the K-means algorithm to make predictions of the K clusters for the cryptocurrencies’ data.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_3/class_clusteres.png" width=100% height=100%></td>
+  </tr>
+      <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 3.) Create a new DataFrame named clustered_df by concatenating the crypto_df and pcs_df DataFrames on the same columns. The index should be the same as the crypto_df DataFrame.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_3/join_df.png" width=100% height=100%></td>
+  </tr>
+</table>
