@@ -55,8 +55,22 @@
     <td> 6.) Create a new DataFrame that holds only the cryptocurrency names, and use the crypto_df DataFrame index as the index for this new DataFrame.</td>
     <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_1/df_crypto_names.png" width=100% height=100%></td>
   </tr>
-      <td> :white_check_mark: </td>
+  <tr>
+    <td> :white_check_mark: </td>
     <td> 7.) Remove the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm.</td>
     <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_1/drop_coin_name.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 8.) Use the get_dummies() method to create variables for the two text features, Algorithm and ProofType, and store the resulting data in a new DataFrame named X.
+    </td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_1/dummies_create_variables.png" width=100% height=100%>        </td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 
+      9.) Use the StandardScaler fit_transform() function to standardize the features from the X DataFrame.
+    </td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_1/standardize_scaler.png" width=100% height=100%></td>
   </tr>
 </table>
