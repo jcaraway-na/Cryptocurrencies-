@@ -118,3 +118,50 @@
     <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_3/join_df.png" width=100% height=100%></td>
   </tr>
 </table>
+
+---
+
+### Deliverable 4: Visualizing Cryptocurrencies Results
+
+<table>
+  <tr>
+    <td>Complete</td>
+    <td>Task</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 1.) Create a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/3d_plot.png" width=100% height=100%></td>
+  </tr>
+    <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 2.) Add the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point shows the CoinName and Algorithm on hover.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/coin_name.png" width=100% height=100%></td>
+  </tr>
+      <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 3.) Create a table with tradable cryptocurrencies using the hvplot.table() function.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/coin_table.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 4.) Print the total number of tradable cryptocurrencies in the clustered_df DataFrame.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/tradable.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 5.) Use the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/minmax_scaler_fit.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 6.) Create a new DataFrame using the clustered_df DataFrame index that contains the scaled data you created.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/class_coinname.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td <td> :white_check_mark: </td>
+    <td width="300"> 7.) Create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and have it show the CoinName when you hover over the the data point.</td>
+    <td><img src="https://github.com/jcaraway-na/Cryptocurrencies-/blob/main/images/delv_4/2d.png" width=100% height=100%></td>
+  </tr>
+</table>
